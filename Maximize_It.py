@@ -1,5 +1,8 @@
+# importing required modules
 from itertools import product
-k,m=map(int,input().split())
+
+# mapping the input
+k, m=map(int,input().split())
 def square(n):
     return int(n)**2
 list1=[]
